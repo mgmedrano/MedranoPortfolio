@@ -2,9 +2,7 @@
     margin: 5px;
     background-color: #A9BCD0;
     color:#173753;
-    scroll-behavior: smooth;
 }
-
 
 aside {
     padding: 0;
@@ -13,16 +11,31 @@ aside {
     display: inline;
 }
 
-#box1 {
-    width: auto;
-    height: auto;
-}
-p {
-    display: inline;
-    float: right;
+h2 {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+p {
+    text-align: justify;
+    display: inline;
+    line-height: 25px;
+}
+
+#work1 {
+    width: 100%;
+ 
+}
+
+#work1 p {
+    text-align: center;
+}
+
+
+
 header {
+    font-size: 30px;
     text-align: center;
     height: 100px;
     width: 100%;
@@ -31,24 +44,30 @@ header {
     margin-top: 20px;
 }
 
+
 .links li {
     display: inline-block;
-    padding: 20px 10px;
+    padding: 30px 10px;
     list-style: none;
-
 }
 
 #img {
+    max-width: 100%;
     width: 250px;
     height: 250px;
     border-radius:50%;
     border: 3px solid #353a47;
-    
 }
 
-button {
-    width: 100px;
-    text-align: center;
+.row {
+    display: flex;
+    flex: 50%;
+}
+
+.column {
+    display: flex;
+    flex: 50%;
+    padding: 5px;
 }
 
 button:hover {
@@ -59,5 +78,5 @@ footer {
     text-align: center;
     color: black;
     font-size: 28px;
-    
+    padding: 50px;    
 }
