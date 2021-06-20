@@ -35,7 +35,6 @@ p {
 
 
 header {
-    font-size: 30px;
     text-align: center;
     height: 100px;
     width: 100%;
@@ -77,6 +76,5 @@ button:hover {
 footer {
     text-align: center;
     color: black;
-    font-size: 28px;
     padding: 50px;    
 }

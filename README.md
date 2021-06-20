@@ -13,19 +13,19 @@
     - They can click on images of the Application which takes them to the deployed application.
     - They can resize the page to view the site on various screens and devices that provide a responsive layout that adapts to their viewpoint.
 
-# CodeRefactor: On-The-Job Ticket: 
-
-A Marketing Agency has requested their website be reviewed to be optimized for search engines.
-
 # Portfolio Preview
-> Site Preview
+> Site Preview 
+![Preview](assets/portfolioPrevTop.png)
+![Preview](assets/portfolioPrevWork.png)
+![Preview](assets/portfolioPreviewResume.png)
 
 ## Work/Application Preview
-- Scratch Game
-- Refactor Work
-- Future Projects
+- Pseudo Coding Game on Scratch Website
+- More Projects Coming Soon (Placeholder image)
+- HTML CSS JS (To denote future projects - Placeholder image)
 
 
 
 ## Work in Progress Link:
-- URL: 
+- URL: https://mgmedrano.github.io/MedranoPortfolio/
+- GitHub Repository: https://github.com/mgmedrano/MedranoPortfolio
