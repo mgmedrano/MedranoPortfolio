@@ -8,7 +8,11 @@ aside {
     padding: 0;
     margin: 0;
     border: 100%;
-    display: inline;
+    display: block;
+}
+
+section {
+    flex: 3;
 }
 
 h2 {
@@ -32,8 +36,6 @@ p {
     text-align: center;
 }
 
-
-
 header {
     text-align: center;
     height: 100px;
@@ -42,7 +44,6 @@ header {
     display: inline-block;
     margin-top: 20px;
 }
-
 
 .links li {
     display: inline-block;
@@ -78,3 +79,13 @@ footer {
     color: black;
     padding: 50px;    
 }
+
+@media screen and (max-width: 768px) {
+   main,
+    nav {
+      flex-direction: column;
+    }
+ 
+ aside {
+    order: 2;
+  }
