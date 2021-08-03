@@ -1,8 +1,27 @@
+/* bootstrap heroes*/
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    flex-direction: inherit;
+  }
+  
+  @media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
+.d-block {
+    border-radius: 50%;
+}
+
 * {
     margin: 5px;
     background-color: #A9BCD0;
     color:#173753;
 }
+
+/* old code
 
 aside {
     padding: 0;
@@ -51,7 +70,7 @@ header {
     list-style: none;
 }
 
-#img {
+#d-block {
     max-width: 100%;
     width: 250px;
     height: 250px;
@@ -88,4 +107,4 @@ footer {
  
  aside {
     order: 2;
-  }
+  } */
