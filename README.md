@@ -24,6 +24,7 @@
     - Work Day Scheduled
     - Code Refactor
 - All work completed targets various use of HTML, CSS, & JavaScript.
+- Bootstrap utilized
 
 
 ## Work in Progress Link:
