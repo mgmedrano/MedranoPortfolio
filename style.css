@@ -8,9 +8,9 @@ bootstrap heroes
     flex-direction: inherit;
   }
   
-  @media (min-width: 992px) {
+  /* @media (min-width: 992px) {
     .rounded-lg-3 { border-radius: .3rem; }
-  }
+  } */
 .d-block {
     border-radius: 50%;
 }
@@ -21,3 +21,28 @@ bootstrap heroes
     color:#173753;
 }
 
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.btn-outline-info {
+    color: #A9BCD0;
+    border-color: #A9BCD0;
+}
+
+.nav-link {
+    color: #173753;
+}
+
+.btn-outline-info:hover, .btn-outline-info:focus, .btn-outline-info:active, .btn-outline-info.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color:#A9BCD0;
+    border-color: #A9BCD0; /*set the color you want here*/
+}
+/* .bi.bi-linkedin {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+} */
